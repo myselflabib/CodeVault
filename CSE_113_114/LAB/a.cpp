@@ -1,10 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-typedef struct node {
+class node {
+    
+    public:
     int data;
-    node *link;
+    node* link;
 };
+
 
 void count_node(node* head){
     int count = 0;
