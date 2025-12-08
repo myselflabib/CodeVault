@@ -27,7 +27,7 @@ int main(){
     // cout << head->next->next->next->val << endl;
 
     Node *temp = head;
-    while (temp != NULL)
+    while(temp != NULL)
     {
         cout << temp->val << endl;
         temp = temp->next;
