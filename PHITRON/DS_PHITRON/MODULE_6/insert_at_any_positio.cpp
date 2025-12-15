@@ -14,8 +14,7 @@ class Node{
 void insert_at_tail(Node* &head,int idx, int val){
     Node* Newnode = new Node(val);
     Node* temp = head;
-    for (int i = 0; i < idx-1; i++)
-    {
+    for (int i = 0; i < idx-1; i++){
         temp = temp->next;
     }
     Newnode->next = temp->next;
