@@ -1,0 +1,4 @@
+PrintWriter is easy
+100
+45.67
+true

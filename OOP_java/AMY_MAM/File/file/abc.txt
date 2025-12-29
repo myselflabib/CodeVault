@@ -1,0 +1,2 @@
+BufferedWriter writes text fast
+This is second line
