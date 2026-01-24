@@ -1,0 +1,12 @@
+Seamntic Markup
+----------------------------------
+<header> </header>
+<main> </main>
+<footer> </footer>
+<nav> </nav>
+
+
+==================================
+<article> </article>
+<section> </section>
+<aside> </aside>
