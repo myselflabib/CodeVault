@@ -1,16 +1,38 @@
 *{
-    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-#mainTopic{
-    color: blue;
+#login{
+    background-color: white;
 }
 
-h1, h3, h5{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-#para{
+#signup{
+    background-color: #b92b27;
     color: white;
-    background-color: cornflowerblue;
+
+}
+
+h1, h3{
+    color: #b92b27;
+}
+
+.upvote{
+    background-color: #b92b27;
+    color: white;
+}
+
+main p{
+    color: green;
+}
+
+h1::first-letter{
+    color: green ;
+}
+
+h1::selection{
+    background-color: green;
+}
+
+button:hover{
+    background-color: rgb(54, 198, 54);
 }

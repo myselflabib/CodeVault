@@ -1,0 +1,17 @@
+/* Create a box using div. Set
+- Its height to 150px, width to 300px and the background color to grey.
+- Border to a 5px, black, dotted border.
+- A top margin of 20px.
+- A right margin of 1em.
+- A bottom margin of 40px.
+- A left margin of 2em.
+- Padding on all sides of 1em. */
+
+div{
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+}

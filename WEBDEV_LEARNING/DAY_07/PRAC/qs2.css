@@ -1,0 +1,15 @@
+/* Qs2. Create 3 divs with the following properties
+- Height & Width of 100px
+- Background color to pink
+- Border to 2px solid black
+- Make this div in the shape of circle
+- Place all the 3 divs in a single line */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}

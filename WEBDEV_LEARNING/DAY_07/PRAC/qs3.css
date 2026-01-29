@@ -1,0 +1,10 @@
+li{
+    display: inline;
+}
+
+li::before{
+    content: "• ";
+    color: #333;
+}
+
+/* https://chat.z.ai/space/h1c0swbzj471-art */
