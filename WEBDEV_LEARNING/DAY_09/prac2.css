@@ -1,0 +1,16 @@
+#container{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 1px solid mediumaquamarine;
+    border-radius: 10px;
+    display: flex;
+    align-content: flex-start;
+
+}
+
+#container div{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+}
