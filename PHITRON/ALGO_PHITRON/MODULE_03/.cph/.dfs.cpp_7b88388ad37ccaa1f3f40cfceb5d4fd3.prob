@@ -1,0 +1,1 @@
+{"name":"Local: dfs","url":"/Users/labib/Desktop/CodeVault/PHITRON/ALGO_PHITRON/MODULE_03/dfs.cpp","tests":[{"id":1770398388551,"input":"7 7\n0 2\n2 4\n0 1\n1 5\n1 3\n0 3\n3 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/labib/Desktop/CodeVault/PHITRON/ALGO_PHITRON/MODULE_03/dfs.cpp","group":"local","local":true}

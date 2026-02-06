@@ -1,0 +1,39 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+    
+    /* animation-name: FontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+
+    animation-name: colorAnimation;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes FontAnimation {
+    from{
+        
+    }
+    to{
+        
+    }
+}
+
+@keyframes colorAnimation {
+    from{
+        background-color: aqua;
+        font-size: 10px;
+    }
+    to{
+        background-color: chartreuse;
+        font-size: 50px;
+    }
+}
