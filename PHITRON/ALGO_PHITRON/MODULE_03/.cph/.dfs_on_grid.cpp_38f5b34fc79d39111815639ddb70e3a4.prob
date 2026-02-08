@@ -1,0 +1,1 @@
+{"name":"Local: dfs_on_grid","url":"/Users/labib/Desktop/CodeVault/PHITRON/ALGO_PHITRON/MODULE_03/dfs_on_grid.cpp","tests":[{"id":1770544345435,"input":"3 4\n....\n....\n....\n1 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/labib/Desktop/CodeVault/PHITRON/ALGO_PHITRON/MODULE_03/dfs_on_grid.cpp","group":"local","local":true}
