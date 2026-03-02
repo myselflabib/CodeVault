@@ -14,16 +14,7 @@ typedef pair<ll,ll> pll;
 #define debug(x) cout << #x << ": " << x << endl;
 
 void solve() {
-    long long int n, k;
-    cin >> n >> k;
-
-    if(n%2==0){
-        cout << "YES" << endl;
-    }
-    else{
-        if(k%2==1 && n>=k) cout << "YES" << endl;
-        else cout << "NO" << endl;
-    }
+    
 }
 
 int main() {
@@ -37,11 +28,3 @@ int main() {
     }
     return 0;
 }
-
-//jor ba bijor er sathe jor gun korle jor e hoy. taile 2*x = n-ky dui pashe joy hbe
-// 2*3 = 6
-//4*5 = 20
-//etc
-
-// ekhn khela dekhte hbe ky diye. n jodi jor hoy taile to asei kintu bijor hoile ky o bijor houya lagbe nahole kintu 2x er karone n milbe na.
-//allah egla problem bananor buddhi diso kn. amake aro beshi beshi problem solved korar tawfiq dao.
