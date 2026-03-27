@@ -1,5 +1,5 @@
 ///   ***   ---   ||   SOLVED BY LABIB   ||   ---   ***   ///
-///   ***   ---   ||   DATE: 00/00/2026  ||   ---   ***   ///
+///   ***   ---   ||   DATE: 27/03/2026  ||   ---   ***   ///
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -14,23 +14,12 @@ typedef pair<ll,ll> pll;
 #define debug(x) cout << #x << ": " << x << endl;
 
 void solve() {
-    int n;
-    cin >> n;
+    int n, a, b;
+    cin >> n >> a >> b;
 
-    int a=1, b=1, c=1, ans=0;
-    while(a<=n){
-        ans++;
-        a+=b;
-        if(c==9){
-            c=1;
-            b*=10;
-            a=b;
-            continue;
-        }
-        c++;
-    }
-
-    cout << ans << endl;
+    if(n==a && a==b) cout << "Yes" << endl;
+    else if(n-(a+b)<=1 || (a+b)>=n) cout << "No" << endl;
+    else cout << "Yes" << endl;
 
 }
 
@@ -45,3 +34,5 @@ int main() {
     }
     return 0;
 }
+
+
