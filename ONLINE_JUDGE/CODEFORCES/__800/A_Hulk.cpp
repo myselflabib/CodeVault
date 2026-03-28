@@ -1,5 +1,5 @@
 ///   ***   ---   ||   SOLVED BY LABIB   ||   ---   ***   ///
-///   ***   ---   ||   DATE: 00/03/2026  ||   ---   ***   ///
+///   ***   ---   ||   DATE: 28/03/2026  ||   ---   ***   ///
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -20,14 +20,22 @@ int main() {
     int n;
     cin >> n;  
 
-    if(n==1){
-        cout << "I hate it" << endl;
-        return 0;
-    }
-    
     for(int i = 1; i<=n; i++){
-        if(i%2!=0) cout << "I hate ";
+        if(i==n){
+            if(i%2==0) cout << "I love it" << endl;
+            else cout << "I hate it" << endl;
+            break;
+        }
+        if(i%2==0) cout << "I love that" << " ";
+        else cout << "I hate that" << " ";
     }
     
     return 0;
 }
+
+
+/*
+bijor e I hate
+ar jor e I love ei duita milaite parlei hoye jay..
+ektu chinta vabna arki..
+*/
