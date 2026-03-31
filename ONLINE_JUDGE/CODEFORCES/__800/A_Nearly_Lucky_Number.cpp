@@ -17,27 +17,26 @@ int main() {
     ios::sync_with_stdio(false); cin.tie(0); 
     cout.tie(0);
 
-    int n;
-    cin >> n;
+    string n;
+    cin >> n;  
+
+    vector<char>v;
+    for(int x:n){
+        if(x=='4' || x=='7') v.push_back(x);
+    }
+
+
     
-    if(n%5!=0) cout << n/5+1 << endl;
-    else cout << n/5 << endl;
+    int l = 0;
+    for(int x:to_string(v.size())){
+        if(x!='4' && x!='7'){
+            l = 1;
+            break;
+        }
+    }
+
+    if(l) cout << "NO" << endl;
+    else cout << "YES" << endl;
     
     return 0;
 }
-
-
-/*
-eikhane ekta pattern khuje pailam..
-1,2,3,4,5==>1
-6-10==>2
-11-15==>3
-16-20==>4
-21-25==>5
-...
-
-eivabe cholte thakbe
-
-
-serahhhh
-*/

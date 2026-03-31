@@ -19,25 +19,28 @@ int main() {
 
     int n;
     cin >> n;
+    string s;
+    cin >> s;
+    set<char> v;
+    if(n<26){
+        cout << "NO" << endl;
+        return 0;
+    }
+
     
-    if(n%5!=0) cout << n/5+1 << endl;
-    else cout << n/5 << endl;
+    for(int x: s){
+        v.insert(tolower(x));
+    }  
+
+    if(v.size()==26) cout << "YES" << endl;
+    else cout << "NO" << endl;
     
     return 0;
 }
 
-
 /*
-eikhane ekta pattern khuje pailam..
-1,2,3,4,5==>1
-6-10==>2
-11-15==>3
-16-20==>4
-21-25==>5
-...
+set e  nile shudhu unique gula thakbe..
+tai jodi set er size 26 hoy taile yes ar naile no
 
-eivabe cholte thakbe
-
-
-serahhhh
+abar jodi n 26er kom hoy taile to age thekei no
 */
